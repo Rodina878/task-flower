@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.par{
+    background-image: url(./images/pexels-gochrisgoxyz-1477166.jpg);
+background-position: center center ;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+h2,p{
+    color: #ffff;
+}
+
+.container{
+    width :85%;
+margin: auto;
+}
+.collect{
+
+}.container .logo {
+    text-align: center;
+}
+.container .logo img{
+    width:150px;
+ margin: auto;
+}
+.group{
+     width:33.33%;
+}
+.box-1{
+   
+position: relative;
+overflow: hidden;
+margin-right: 30px;
+ border-radius:35px ;
+}
+.container .img-box img{
+    width:100%;
+}
+.container .layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: all 1.5s;
+    text-align: center;
+background-color: rgba(0, 0, 0, 0.569);
+}
+.container .box-1:hover .layer{
+    top: 0;
+    opacity: 1;
+    
+}.container .box-1:hover img{
+    transform: scale(1.1);
+    transition: all 1s;
+}.container .layer h2{
+    padding-top: 130px;
+    margin-top: 50px;
+}
+.container .layer p{
+    margin-top: 20px;
+}
+.date {
+    margin-top: 10px;
+}
+.float-l {
+    float: left;
+}
+.clear-both{
+    clear: both;
+}
+.prev{
+    display: inline;
+}
+.date-se{
+margin: 20px 40px;
+}
+.date-se .space{
+    margin-right: 150px;
+    color: #ffff;
+}
+.text-center{
+    text-align: center;
+}
+.group button{
+    padding:15px;
+    width:100px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(24, 111, 192);
+    color:white;transition: all 0.5s;
+}
+.group button:hover{
+    background-color: rgb(39, 159, 77);
+
+}
+.del{
+    transform: translateY(400px);
+}
+.container .box-1:hover .del{
+transform: translateY(0);
+transition: all 1.7s 0.4s;
+}
+.gray{
+    color:gray;
+}
+span{
+    font-size: 13px;
+}
